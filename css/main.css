@@ -56,6 +56,26 @@ body {
     background-color: whitesmoke;
     min-height: 400px;
 
+
+}
+
+body img {
+    margin: 50px;
+    padding: 5px;
+    float: left;
+    
+}
+
+body li {
+    text-decoration: none;
+    border: green dotted;
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    /* clear: both; */
+    display: inline;
+    
+
 }
 
 footer{
@@ -65,5 +85,6 @@ footer{
     margin: 0 auto;
     text-align: center;
     padding: 30px;
+    clear: both;
 
 }
