@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: Helvetica;
+    color: black
+
+}
+
+header h1 {
+    font-size: 40px;
+    padding: 30px;
+    color: orange;
+    background-color: royalblue;
+    text-align: center;
+
+}
+
+nav {
+    padding: 10px;
+    background-color: lightgray;
+    
+}
+
+nav tr {
+    
+}
+
+header tr:first-child td {
+    background-color: orange;
+    border: royalblue solid 2px;
+    display: inline-table;
+    margin-right: 60px;
+    margin-top: 0px;
+    padding: 5px;
+    font-size: 20px;
+
+}
+
+header tr:last-child td {
+    background-color: royalblue;
+    border: orange solid 2px;
+    display: inline-table;
+    padding: 5px;
+    margin-right: 65px;
+    margin-top: 5px;
+
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    min-height: 400px;
+
+}
