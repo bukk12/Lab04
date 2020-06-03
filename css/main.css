@@ -12,16 +12,12 @@ header h1 {
     color: orange;
     background-color: royalblue;
     text-align: center;
-
+    text-shadow: 2px 2px black;
 }
 
 nav {
     padding: 10px;
     background-color: lightgray;
-    
-}
-
-nav tr {
     
 }
 
@@ -34,6 +30,14 @@ header tr:first-child td {
     padding: 5px;
     font-size: 20px;
 
+}
+
+header tr:first-child td:hover {
+    background-color: whitesmoke;
+}
+
+header tr:last-child td:hover {
+    background-color: whitesmoke;
 }
 
 header tr:last-child td {
@@ -51,5 +55,15 @@ body {
     margin: 0 auto;
     background-color: whitesmoke;
     min-height: 400px;
+
+}
+
+footer{
+
+    background-color: royalblue;
+    /* min-height: 40px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
 
 }
