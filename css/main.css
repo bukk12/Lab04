@@ -25,10 +25,11 @@ header tr:first-child td {
     background-color: orange;
     border: royalblue solid 2px;
     display: inline-table;
-    margin-right: 60px;
+    margin-right: 0px;
     margin-top: 0px;
     padding: 5px;
     font-size: 20px;
+    margin-left: 225px;
 
 }
 
@@ -45,8 +46,9 @@ header tr:last-child td {
     border: orange solid 2px;
     display: inline-table;
     padding: 5px;
-    margin-right: 65px;
+    margin-right: 60px;
     margin-top: 5px;
+    margin-left: 130px;
 
 }
 
@@ -56,7 +58,24 @@ body {
     background-color: whitesmoke;
     min-height: 400px;
 
+}
 
+body h2 {
+    color: royalblue;
+    border: orange solid;
+    text-align: center;
+    text-shadow: black 1px 1px;
+    font-size: 35px;
+
+}
+
+body h3 {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    color: orange;
+    text-shadow: black 1px 1px;
+    border: royalblue solid 2px;
 }
 
 /* body img {
@@ -78,15 +97,16 @@ body {
 
 div {
     float: left;
+    
 }
 
 
 .R32 {
-    border: red dotted;
+    /* border: red dotted; */
     text-align: center;
     padding-right: 60px;
-    padding-left: 60px;
-    width: 150px;
+    padding-left: 90px;
+    width: 220px;
     /* float: left; */
 }
 
@@ -98,15 +118,15 @@ div {
 }
 
 .R32 p {
-    border: fuchsia dotted;
+    border: orange solid 2px;
     font-style: Script;
 }
 
 .R34 {
     padding-right: 60px;
-    border: red dotted;
+    /* border: red dotted; */
     text-align: center;
-    width: 150px;
+    width: 220px;
 }
 
 .R34 img {
@@ -117,15 +137,15 @@ div {
 }
 
 .R34 p {
-    border: fuchsia dotted;
+    border: orange solid 2px;
     font-style: Script;
 }
 
 .z350 {
     padding-right: 60px;
-    border: red dotted;
+    /* border: red dotted; */
     text-align: center;
-    width: 150px;
+    width: 220px;
 }
 
 .z350 img {
@@ -136,16 +156,16 @@ div {
 }
 
 .z350 p {
-    border: fuchsia dotted;
+    border: orange solid 2px;
     font-style: Script;
 }
 
 .z370 {
-    padding-left: 60px;
+    padding-left: 90px;
     padding-right: 60px;
-    border: red dotted;
+    /* border: red dotted; */
     text-align: center;
-    width: 150px;
+    width: 220px;
 }
 
 .z370 img {
@@ -156,15 +176,15 @@ div {
 }
 
 .z370 p {
-    border: fuchsia dotted;
+    border: orange solid 2px;
     font-style: Script;
 }
 
 .S13 {
     padding-right: 60px;
-    border: red dotted;
+    /* border: red dotted; */
     text-align: center;
-    width: 150px;
+    width: 220px;
 }
 
 .S13 img {
@@ -175,15 +195,16 @@ div {
 }
 
 .S13 p {
-    border: fuchsia dotted;
+    border: orange solid 2px;
     font-style: Script;
 }
 
 .S14 {
     padding-right: 60px;
-    border: red dotted;
+    margin-bottom: 20px;
+    /* border: red dotted; */
     text-align: center;
-    width: 150px;
+    width: 220px;
 }
 
 .S14 img {
@@ -194,7 +215,7 @@ div {
 }
 
 .S14 p {
-    border: fuchsia dotted;
+    border: orange solid 2px;
     font-style: Script;
 }
 
