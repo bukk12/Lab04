@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-style: Helvetica;
+    font-family: "Helvetica", serif;
     color: black
 
 }
@@ -59,23 +59,143 @@ body {
 
 }
 
-body img {
+/* body img {
     margin: 50px;
     padding: 5px;
-    float: left;
+    float: left; */
     
+/* } */
+
+/* body li { */
+    /* list-style: none; */
+    /* border: green dotted; */
+    /* margin: 50px; */
+    /* padding: 10px; */
+    /* text-align: center; */
+    /* clear: both; */
+    /* display: inline; */
+/* }  */
+
+div {
+    float: left;
 }
 
-body li {
-    text-decoration: none;
-    border: green dotted;
-    margin: 50px;
-    padding: 10px;
-    text-align: center;
-    /* clear: both; */
-    display: inline;
-    
 
+.R32 {
+    border: red dotted;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 150px;
+    /* float: left; */
+}
+
+.R32 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.R32 p {
+    border: fuchsia dotted;
+    font-style: Script;
+}
+
+.R34 {
+    padding-right: 60px;
+    border: red dotted;
+    text-align: center;
+    width: 150px;
+}
+
+.R34 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.R34 p {
+    border: fuchsia dotted;
+    font-style: Script;
+}
+
+.z350 {
+    padding-right: 60px;
+    border: red dotted;
+    text-align: center;
+    width: 150px;
+}
+
+.z350 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.z350 p {
+    border: fuchsia dotted;
+    font-style: Script;
+}
+
+.z370 {
+    padding-left: 60px;
+    padding-right: 60px;
+    border: red dotted;
+    text-align: center;
+    width: 150px;
+}
+
+.z370 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.z370 p {
+    border: fuchsia dotted;
+    font-style: Script;
+}
+
+.S13 {
+    padding-right: 60px;
+    border: red dotted;
+    text-align: center;
+    width: 150px;
+}
+
+.S13 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.S13 p {
+    border: fuchsia dotted;
+    font-style: Script;
+}
+
+.S14 {
+    padding-right: 60px;
+    border: red dotted;
+    text-align: center;
+    width: 150px;
+}
+
+.S14 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.S14 p {
+    border: fuchsia dotted;
+    font-style: Script;
 }
 
 footer{
