@@ -21,7 +21,7 @@ body.appendChild(button);
 
 
 button.addEventListener ("click", function() {
-   var eMail = prompt("Please enter your email:");
+   nissanLoop();
   });
 
 //   var fs = require('fs');
@@ -55,6 +55,43 @@ button.addEventListener ("click", function() {
      document.write('<h1>'+ greeting + '</h1>');
  }
 
+//  welcomeUser();
 
- 
- welcomeUser();
+
+
+ function nissanLoop(){
+      var datsun = prompt('do you like Nissan? Y/N').toUpperCase;
+      var good;
+
+      while (datsun == 'N') {
+           datsun = prompt('Are you sure?? Y/N').toUpperCase;
+      } if (datsun == 'Y'){
+          good = 'Great choice Champ!'
+     }
+
+     if (datsun == null){
+          datsun = prompt('you must make your choice! Y/N').toUpperCase;
+     }
+     document.write('<h2>' + good + '</h2>');
+ }
+
+
+function passWord(){
+
+     var pass = prompt('Enter Secret Password!');
+      
+     while (pass !== 'power'){
+          pass = prompt('You need to know the password!');
+     }
+     // if (pass === 'sesame'){
+
+}
+// passWord()
+
+function functionOrder(){
+
+     passWord();
+     welcomeUser();
+
+}
+functionOrder();
