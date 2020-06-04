@@ -52,10 +52,9 @@ button.addEventListener ("click", function() {
      if (userName == null){
           greeting = 'Welcome to Import hut!'
      }     
-     // return greeting;
      document.write('<h1>'+ greeting + '</h1>');
  }
 
 
-
+ 
  welcomeUser();
