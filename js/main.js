@@ -11,18 +11,19 @@ console.log('this file is working');
 //         text = "Thank you " + person + " we'll get in touch soon!";
 //     document.getElementById('demo').innerHTML = txt;
 
-// var button = document.createElement("button");
-// button.innerHTML = "*Click me to take a survey*";
+var button = document.createElement("button");
+button.innerHTML = "*Click me to take a survey*";
 
-// var body = document.getElementsByTagName("body")[0];
-// body.appendChild(button);
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+button.addEventListener ("click", function() {
+   nissanLoop();
+  });
 
 
 
 
-// button.addEventListener ("click", function() {
-//    nissanLoop();
-//   });
 
 //   var fs = require('fs');
 //   var path = "../output.txt";
@@ -72,6 +73,7 @@ console.log('this file is working');
      if (datsun == null){
           datsun = prompt('you must make your choice! Y/N').toUpperCase();
      }
+     document.getElementById('finale').innerHTML= good;
      // document.write('<h2>' + good + '</h2>');
  }
 
@@ -99,3 +101,6 @@ function functionOrder(){
 
 }
 functionOrder();
+
+
+
