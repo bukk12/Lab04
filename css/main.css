@@ -12,7 +12,7 @@ header h1 {
     color: orange;
     background-color: royalblue;
     text-align: center;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 nav {
@@ -33,11 +33,15 @@ header tr:first-child td {
 
 }
 
-header tr:first-child td:hover {
+/* header tr:first-child td:hover {
     background-color: whitesmoke;
-}
+} */
 
-header tr:last-child td:hover {
+/* header tr:last-child td:hover {
+    background-color: whitesmoke;
+} */
+
+td:hover {
     background-color: whitesmoke;
 }
 
@@ -64,7 +68,7 @@ body h2 {
     color: royalblue;
     border: orange solid;
     text-align: center;
-    text-shadow: black 1px 1px;
+    text-shadow: black 1px 1px 1px;
     font-size: 35px;
 
 }
@@ -74,7 +78,7 @@ body h3 {
     text-align: center;
     padding: 30px;
     color: orange;
-    text-shadow: black 1px 1px;
+    text-shadow: black 1px 1px 1px;
     border: royalblue solid 2px;
 }
 

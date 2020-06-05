@@ -11,18 +11,18 @@ console.log('this file is working');
 //         text = "Thank you " + person + " we'll get in touch soon!";
 //     document.getElementById('demo').innerHTML = txt;
 
-var button = document.createElement("button");
-button.innerHTML = "*Click me to leave your email*";
+// var button = document.createElement("button");
+// button.innerHTML = "*Click me to take a survey*";
 
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-
+// var body = document.getElementsByTagName("body")[0];
+// body.appendChild(button);
 
 
-button.addEventListener ("click", function() {
-   nissanLoop();
-  });
+
+
+// button.addEventListener ("click", function() {
+//    nissanLoop();
+//   });
 
 //   var fs = require('fs');
 //   var path = "../output.txt";
@@ -42,14 +42,14 @@ button.addEventListener ("click", function() {
       var greeting;
 
      if (zText == 1){
-          greeting = userName + ', Welcome to Import hut!';
+          greeting = userName + ' Welcome to Import hut!';
      } else if (zText !== 1){
           greeting = ' ERROR! ';
      } else {
           greeting = 'thanks!';
      }
 
-     if (userName == null){
+     if (userName == null || ''){
           greeting = 'Welcome to Import hut!'
      }     
      document.write('<h1>'+ greeting + '</h1>');
@@ -60,28 +60,32 @@ button.addEventListener ("click", function() {
 
 
  function nissanLoop(){
-      var datsun = prompt('do you like Nissan? Y/N').toUpperCase;
+      var datsun = prompt('do you like Nissan? Y/N').toUpperCase();
       var good;
 
       while (datsun == 'N') {
-           datsun = prompt('Are you sure?? Y/N').toUpperCase;
+           datsun = prompt('Are you sure?? Y/N').toUpperCase();
       } if (datsun == 'Y'){
           good = 'Great choice Champ!'
      }
 
      if (datsun == null){
-          datsun = prompt('you must make your choice! Y/N').toUpperCase;
+          datsun = prompt('you must make your choice! Y/N').toUpperCase();
      }
-     document.write('<h2>' + good + '</h2>');
+     // document.write('<h2>' + good + '</h2>');
  }
 
 
 function passWord(){
-
+     var attempt = 0
      var pass = prompt('Enter Secret Password!');
       
      while (pass !== 'power'){
-          pass = prompt('You need to know the password!');
+          console.log(pass)
+          if (pass !== 'power') {
+               attempt++
+          }
+          pass = prompt('You need to know the password!' + ' You have used ' + attempt + ' attempts.');
      }
      // if (pass === 'sesame'){
 
