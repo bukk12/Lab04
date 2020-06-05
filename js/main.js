@@ -1,20 +1,9 @@
 'use strict'
 
-console.log('this file is working');
-
-// funtion(myFunction)
-//     var txt;
-//     var person = prompt("Enter your email for contact back:, 'email@deltastore.com');
-//      if (person == null || person == "")
-//         txt = "User cancelled input";
-//     else
-//         text = "Thank you " + person + " we'll get in touch soon!";
-//     document.getElementById('demo').innerHTML = txt;
-
 var button = document.createElement("button");
 button.innerHTML = "*Click me to take a survey*";
 
-var body = document.getElementsByTagName("body")[0];
+var body = document.getElementById("button");
 body.appendChild(button);
 
 button.addEventListener ("click", function() {
@@ -39,24 +28,16 @@ button.addEventListener ("click", function() {
 
  function welcomeUser(){
       var userName = prompt('please type your name!');
-      var zText = 1;
-      var greeting;
+      var greeting = 'Welcome to Import hut!'
 
-     if (zText == 1){
-          greeting = userName + ' Welcome to Import hut!';
-     } else if (zText !== 1){
-          greeting = ' ERROR! ';
-     } else {
-          greeting = 'thanks!';
-     }
 
-     if (userName == null || ''){
-          greeting = 'Welcome to Import hut!'
+     if (userName !== null || userName !== ''){
+          greeting = userName + ', ' + greeting;
+
      }     
-     document.write('<h1>'+ greeting + '</h1>');
+     document.getElementById('greeting').innerHTML=('<h1>'+ greeting + '</h1>');
  }
 
-//  welcomeUser();
 
 
 
@@ -79,28 +60,26 @@ button.addEventListener ("click", function() {
 
 
 function passWord(){
-     var attempt = 0
+     var attempt = 1;
      var pass = prompt('Enter Secret Password!');
       
      while (pass !== 'power'){
-          console.log(pass)
-          if (pass !== 'power') {
-               attempt++
+          pass = prompt('You need to know the password!' + ' You have ' + (5-attempt) + ' attempts remaining');
+          attempt++;
+          if (attempt == 5){
+               document.getElementsByTagName('body')[0].innerHTML=('<h1> you should know the password </h1>');
+               break;
           }
-          pass = prompt('You need to know the password!' + ' You have used ' + attempt + ' attempts.');
      }
-     // if (pass === 'sesame'){
+     if (pass === 'power'){
+          welcomeUser();
+
+     }
+
 
 }
-// passWord()
 
-function functionOrder(){
 
      passWord();
-     welcomeUser();
-
-}
-functionOrder();
-
 
 
